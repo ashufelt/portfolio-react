@@ -1,22 +1,18 @@
 import { BrowserRouter } from 'react-router-dom';
 import {
-  NavBar
+  Navbar
 } from './components';
-//import { useState } from 'react';
-//import zeldaPicture from './assets/zelda_under_table.jpg';
-import './App.css';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div>
         <div>
-          <NavBar />
+          <Navbar />
         </div>
       </div>
     </BrowserRouter>
   );
 };
-
 
 export default App;
